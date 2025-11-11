@@ -24,6 +24,7 @@ public class DummySecrets {
 
     // Example 5 — embedded in a long text block / multiline string
     private static final String MULTILINE = "This file contains lines for testing scanners:\n"
+            + "Authorization: Bearer test-access-token"
             + "api: process.env.SENDGRID_API_KEY\n"
             + "ngnix: process.env.NGNIX_API_KEY\n"
             + "API_KEY_NGNIX\n"
